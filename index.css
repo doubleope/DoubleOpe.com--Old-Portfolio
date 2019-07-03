@@ -1,15 +1,19 @@
-div{
+div {
     height: 500px;
     width: 100%;
     margin: 0px;
     border: 0px;
     padding: 0px 0px 0px 0px;
+    top: 25%;
 }
 
-#div1{
+#div1   {
+    
     background-color: rgb(25, 25, 80);
+    text-align: center;
+    
 }
-#div2{
+#div2   {
     background-color: rgb(46, 46, 82);
 }
 #div3{
@@ -20,11 +24,24 @@ div{
 }
 #div5{
     background-color: rgb(9, 9, 14);
+    
 }
 
-body{
+body    {   
     padding: 0;
     margin: 0;
     
     
+}
+
+ul  {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    right: 50%;
+    font-size: 80px;
+    list-style: none;
+    float: left;
 }
