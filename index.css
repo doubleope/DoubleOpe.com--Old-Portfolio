@@ -1,4 +1,4 @@
-div {
+.colors {
     height: 500px;
     width: 100%;
     margin: 0px;
@@ -11,11 +11,7 @@ div {
 #div1   {
     
     background-color: rgb(25, 25, 80);
-    position: relative;
-    
-    
-    text-align: center;
-   
+
     
 }
 
@@ -40,27 +36,30 @@ body    {
     
 }
 
-ul  {
-    margin: 0;
-    padding: 0;
     
-    position: absolute;
-    top: 50%;
-    left: 50%;
     
-    font-size: 90px;
-    transform: translate(-50%, -50%);
 
 
     
     
    
-}
-ul li{
-    list-style: none;
-    float: left;
-    margin: 10px;
-   
-    
+i {
+    font-size: 80px;
+    color: black;
 }
 
+p {
+    color: black;
+    font-size: 2rem;
+    
+
+}
+
+#github {
+    height: 180px;
+    margin-right: 20px;
+}
+#linkedin {
+    height: 180px;
+    margin-left: 20px;
+}
