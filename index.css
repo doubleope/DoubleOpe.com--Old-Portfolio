@@ -10,13 +10,13 @@
 
 #div1   {
     
-    background-color: rgb(25, 25, 80);
+    background-color: rgb(176, 176, 199);
 
     
 }
 
 #div2   {
-    background-color: rgb(46, 46, 82);
+    background-color: rgb(46, 46, 80);
 }
 #div3{
     background-color: rgb(72, 72, 114);
@@ -62,4 +62,12 @@ p {
 #linkedin {
     height: 180px;
     margin-left: 20px;
+}
+
+.classback{
+    position: relative;
+}
+
+.card {
+    position: absolute;
 }
