@@ -32,6 +32,7 @@ html {
 }
 #projects{
     background-color: rgba(34, 34, 54, 0.514);
+    padding-top: 3%;
 }
 #div5{
     background-color: rgb(176, 176, 199);
@@ -163,21 +164,39 @@ h1 {
       text-align: center;
       color: black;
       text-shadow: 2px 2px grey;
+      padding-bottom: 1%;
   }
 
   .card-deck {
-      border: 1px solid black;
+      
       width: 60%;
       margin: auto;
       height: 300px;
   }
 
 .fas {
-    font-size: 200px;
+    font-size: 500%;
+    
 }
   
 
 .mycard {
+    display: table;
     text-align: center;
-    height: 400px;
+    height: 300px;
+    
+    
+}
+
+
+#game {
+    margin-top: 2%;
+}
+
+#terminal {
+    margin-top: 6%;
+}
+
+#double {
+    margin-top: 10%;
 }
