@@ -184,8 +184,11 @@ h1 {
     display: table;
     text-align: center;
     height: 300px;
+    transition: 0.5s ease-in-out;
     
-    
+}
+.mycard:hover {
+    background: rgb(226, 217, 217);
 }
 
 
