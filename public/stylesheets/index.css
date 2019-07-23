@@ -13,7 +13,7 @@ html {
   
 }
 
-#div1   {
+#link   {
     
     background-color: rgb(176, 176, 199);
 
@@ -53,32 +53,7 @@ p {
 
 
 
-.links {
-    height: 180px;
-    margin: 1%;
-    border: 1px solid black;
-    border-radius: 50%;
-    position: relative;
-    transition: 1s ease-in-out;
-    z-index: 1;
-    background: #fff;
-}
 
-.links:before{
-    content: '';
-    width: 100%;
-    height: 100%;
-    
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #ff003b;
-    border-radius: 50%;
-    transform: scale(0);
-    transition: .5s ease-in-out;
-    z-index: -1;
-    
-}
 
 ul {
     margin: 0;
