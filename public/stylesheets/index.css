@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    margin: 0;
+    height: 100%;
 }
 
 
@@ -10,27 +12,30 @@ html {
     border: 0px;
     padding: 0px 0px 0px 0px;
     
+    
   
 }
 
-#link   {
+#links-background   {
     
     background-color: rgb(176, 176, 199);
-
+    height: 250px;
+    padding: 0;
     
 }
 
-#div2   {
+#card-background-top   {
     background-color: rgb(46, 46, 80);
 }
-#div3{
+#card-background-bottom{
     background-color: rgb(72, 72, 114);
 }
 #projects{
     background-color: rgba(34, 34, 54, 0.514);
 }
 #div5{
-    background-color: rgb(9, 9, 14);
+    background-color: rgb(176, 176, 199);
+    height: 40px;
     
 }
 
@@ -59,8 +64,9 @@ ul {
     margin: 0;
     padding: 0;
     position: absolute;
-   
-    height: 400px;
+    
+    margin-top: 0.0001%;
+    height: 200px;
     text-align: center;
     
  
@@ -82,6 +88,7 @@ ul li {
     color: #262626;
     z-index: 1;
     cursor: pointer;
+    padding: 0.9%;
 }
 ul li:before {
     content: '';
@@ -100,6 +107,7 @@ ul li:hover:before{
     transform: scale(1);
     
 }
+
 
 
 
@@ -161,4 +169,15 @@ h1 {
       border: 1px solid black;
       width: 60%;
       margin: auto;
+      height: 300px;
   }
+
+.fas {
+    font-size: 200px;
+}
+  
+
+.mycard {
+    text-align: center;
+    height: 400px;
+}
