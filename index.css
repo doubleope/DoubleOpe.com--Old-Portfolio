@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 .colors {
     height: 500px;
     width: 100%;
@@ -170,3 +175,5 @@ h1 {
   a {
       text-transform: capitalize;
   }
+
+  
