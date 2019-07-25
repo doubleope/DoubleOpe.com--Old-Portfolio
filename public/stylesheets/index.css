@@ -217,19 +217,6 @@ h1 {
 }
 
 
-@media only screen and (max-width: 100%) {
-   .card-deck {
-       width: 80%;
-   }
-   #name {
-       font-size: 1.5rem;
-   }
-   #intro {
-    width: 70%;
-    height: 20%;
-    }
-
-}
 
 @media only screen and (max-width: 1026px) {
     .card-deck {
