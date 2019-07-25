@@ -118,10 +118,29 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    box-shadow: 5px 10px;
+    box-shadow: 50px 10px;
     color: white;
+    height: 5%;
+    display: table;
+    box-shadow: 0 1rem 5rem rgba(0, 0, 0, 3);
 }
 
 a {
     color: white;
+}
+
+#p-for-about {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+    margin-right: 20%;
+    float: right;
+}
+
+#p-for-attribution {
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 20%;
+    float: left;
 }

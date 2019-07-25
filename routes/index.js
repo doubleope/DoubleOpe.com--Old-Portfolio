@@ -8,4 +8,9 @@ router.get('/', function(req, res, next) {
 router.get('/cgg', function(req, res, next) {
   res.render('cgg');
 });
+router.get('/cgg/about', function(req, res, next) {
+  res.render('about');
+});
+
+
 module.exports = router;
