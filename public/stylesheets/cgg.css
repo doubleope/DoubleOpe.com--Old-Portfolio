@@ -1,12 +1,14 @@
 html {
     margin-top: 0px;
     padding-top: 0px;
+    height: 100%;
 }
 
 body{
     background-color: cadetblue;
     margin: 0px 0px 0px 0px;
     padding-top: 0px;
+    height: 100%;
 }
 .maps{
    
@@ -45,6 +47,7 @@ img {
 #container{
     margin: 20px auto;
     max-width: 850px;
+    height: 100%;
 }
 
 h1, h2{
@@ -121,26 +124,112 @@ footer {
     box-shadow: 50px 10px;
     color: white;
     height: 5%;
-    display: table;
+    display: flex;
     box-shadow: 0 1rem 5rem rgba(0, 0, 0, 3);
+    justify-content: center;
+    justify-content: space-around;
 }
 
 a {
     color: white;
 }
 
-#p-for-about {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 0;
-    margin-right: 20%;
-    float: right;
+@media only screen and (max-width: 1024px) {
+    .maps {
+        width: 40%;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 255px;
+    }
+    #container {
+        margin: auto;
+    }
+    footer {
+        font-size: 1.3rem;
+    }
 }
 
-#p-for-attribution {
-    padding: 0;
-    display: table-cell;
-    vertical-align: middle;
-    margin-left: 20%;
-    float: left;
+@media only screen and (max-width: 768px) {
+    .maps {
+        width: 35%;
+        margin-right: 7%;
+        margin-left: 7%;
+        height: 20%;
+    }
+    #container {
+        margin: auto;
+    }
+    footer {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .maps {
+        width: 40%;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 20%;
+        margin-top: 0.4%;
+    }
+    #heading {
+        background: powderblue;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 20%;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.375);
+        font-size: 0.75rem;
+    }
+
+    footer {
+        font-size: 0.6rem;
+        padding-top: 0.0001%;
+    }
+
+}
+
+@media only screen and (max-width: 414px) {
+    .maps {
+        width: 40%;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 20%;
+    }
+    #heading {
+        background: powderblue;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 20%;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.375);
+        font-size: 0.7rem;
+    }
+    footer {
+        font-size: 0.65rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .maps {
+        width: 40%;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 20%;
+        margin-top: 0.3%;
+    }
+    #heading {
+        background: powderblue;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 20%;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.375);
+        font-size: 0.5rem;
+    }
+
+    footer {
+        font-size: 0.5rem;
+        padding-top: 0.0001%;
+    }
 }
