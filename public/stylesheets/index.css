@@ -223,9 +223,44 @@ h1 {
 }
 
 
-@media only screen and (max-width: 480px) {
-    #intro {
-        min-width: 80%;
-        max-height: 80%;
+@media only screen and (max-width: 1295px) {
+    .card-deck {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .card-deck {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .card-deck {
+        width: 100%;
+      
+    }
+}
+
+
+@media only screen and (max-width: 414px) {
+    .card {
+        width: 90%;
+        margin: auto;
+        height: 95%;
+    }
+    #projects {
+        height: 100%;
+    }
+    .card-deck {
+        height: 30%;
+    }
+    .fas {
+        font-size: 400%;
+        line-height: 0.5;
+    }
+    h5 {
+        font-size: 1rem;
+        
     }
 }
