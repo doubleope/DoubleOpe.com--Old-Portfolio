@@ -123,6 +123,7 @@ ul li:hover:before{
 #intro {
     width: 50%;
     height: 27%;
+    height: auto;
     position: absolute;
     top: 50%;
     left: 50%;
