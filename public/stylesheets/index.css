@@ -298,5 +298,9 @@ h1 {
     .card-body {
         padding-top: 0;
     }
+
+    .fab {
+        font-size: 20%;
+    }
    
 }
