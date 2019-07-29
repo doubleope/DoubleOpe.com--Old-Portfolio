@@ -253,7 +253,7 @@ h1 {
         height: 100%;
     }
     .card-deck {
-        height: 30%;
+        width: 90%;
     }
     .fas {
         font-size: 400%;
