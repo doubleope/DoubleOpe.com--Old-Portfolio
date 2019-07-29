@@ -263,7 +263,7 @@ h1 {
     }
     .project-card-heading {
         font-size: 1em;
-        
+        margin-bottom: 0;
     }
     .project-card-body {
         font-size: 0.8em
