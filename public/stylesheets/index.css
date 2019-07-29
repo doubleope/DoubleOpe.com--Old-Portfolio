@@ -275,7 +275,7 @@ h1 {
         margin-bottom: 4%;
     }
     #intro {
-        max-width: 90%;
+        width: 90%;
         max-height: 80%;
     }
     h1 {
