@@ -248,6 +248,7 @@ h1 {
         width: 90%;
         margin: auto;
         height: 95%;
+        
     }
     #projects {
         height: 100%;
@@ -283,5 +284,8 @@ h1 {
     }
     #projects {
         height: 100%;
+    }
+    .card-deck .card {
+        margin-bottom: 1%;
     }
 }
