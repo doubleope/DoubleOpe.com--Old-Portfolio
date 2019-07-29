@@ -270,4 +270,8 @@ h1 {
     .btn {
         font-size: 1em;
     }
+    #terminal {
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
 }
