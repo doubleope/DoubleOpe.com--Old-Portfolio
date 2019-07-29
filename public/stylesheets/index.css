@@ -276,6 +276,7 @@ h1 {
     }
     #intro {
         max-width: 90%;
+        max-height: 80%;
     }
     h1 {
         font-size: 2em;
