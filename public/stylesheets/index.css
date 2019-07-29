@@ -288,4 +288,7 @@ h1 {
     .card-deck .card {
         margin-bottom: 1%;
     }
+    .card-body {
+        padding-top: 0;
+    }
 }
