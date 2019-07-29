@@ -255,7 +255,7 @@ h1 {
     }
     .card-deck {
         width: 100%;
-        height: 100%;
+        height: 90%;
     }
     .fas {
         font-size: 200%;
@@ -281,7 +281,7 @@ h1 {
     #double {
         margin-bottom: 4%;
     }
-    
+
     #intro {
         width: 90%;
         max-height: 80%;
@@ -298,4 +298,5 @@ h1 {
     .card-body {
         padding-top: 0;
     }
+   
 }
