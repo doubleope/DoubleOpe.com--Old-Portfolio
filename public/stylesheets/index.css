@@ -275,6 +275,13 @@ h1 {
         margin-top: 1%;
         margin-bottom: 4%;
     }
+    #game {
+        margin-bottom: 4%;
+    }
+    #double {
+        margin-bottom: 4%;
+    }
+    
     #intro {
         width: 90%;
         max-height: 80%;
